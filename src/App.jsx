@@ -1,9 +1,16 @@
-
+import Nav from "./components/navbar";
+import Jumpotron from "./components/Jumpotron";
+import Sound from "./components/SoundSection";
+import DisplaySection from "./components/DisplaySection";
+import WebgiViewer from "./components/WebgiViewer";
 function App() {
-
   return (
     <div className="App">
-      Hello
+      <Nav />
+      <Jumpotron />
+      <Sound />
+      <DisplaySection />
+      <WebgiViewer />
     </div>
   );
 }
